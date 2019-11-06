@@ -1,0 +1,108 @@
+.ymaps-2-1-74-zoom__plus .ymaps-2-1-74-zoom__icon {
+  background-image: url('../img/map/Plus.svg') !important;
+}
+
+.ymaps-2-1-74-zoom__minus .ymaps-2-1-74-zoom__icon {
+  background-image: url('../img/map/Minus.svg') !important;
+}
+
+.ymaps-2-1-74-controls__control {
+  width:23px;
+}
+
+.ymaps-2-1-74-zoom {
+  padding: 23px 0 !important;
+}
+
+.ymaps-2-1-74-float-button {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  display: block !important;
+  width: 23px !important;
+  padding-left: 23px !important;
+  height: 23px !important;
+}
+
+.ymaps-2-1-74-float-button-icon {
+  border: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: contain !important;
+}
+
+.ymaps-2-1-74-float-button-icon_icon_ruler {
+  background-image: url('../img/map/Line.svg') !important;
+}
+
+.ymaps-2-1-74-searchbox-input {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.ymaps-2-1-74-searchbox__normal-layout:after {
+  box-shadow: none !important;
+}
+
+.ymaps-2-1-74-searchbox-button {
+  background: linear-gradient(to right, #fb4086 0%, #f91c3e 100%);
+  color: #fff !important;
+  border-radius: 5px !important;
+  margin-left: 5px;
+  font-size: 16px !important;
+}
+
+.ymaps-2-1-74-searchbox-button.ymaps-2-1-74-_pin_right {
+  border-radius: 5px !important;
+  //padding: 17px 20px !important
+  width: 100% !important;
+
+}
+
+.ymaps-2-1-74-searchbox__normal-layout {
+  width: 450px !important;
+}
+
+.ymaps-2-1-74-searchbox-button {
+  height: 100% !important;
+}
+
+.ymaps-2-1-74-searchbox-button-text {
+  padding: 4px 20px !important;
+  font-family: 'roboto';
+}
+
+.ymaps-2-1-74-searchbox-button {
+  font-family: 'roboto' !important;
+}
+
+.ymaps-2-1-74-searchbox-button-text {
+
+}
+
+
+input.ymaps-2-1-74-searchbox-input__input {
+  padding: 17px 20px !important;
+  border: solid 1px #c9ccd4 !important;
+  border-radius: 5px;
+  outline: none !important;
+  background: #fff !important;
+  @include placeholder(#dddfe7);
+}
+
+@media screen and (max-width: 615px) {
+  .ymaps-2-1-74-controls__control {
+    left: 10px !important;
+  }
+
+  .ymaps-2-1-74-searchbox__normal-layout {
+    width: 250px !important;
+    top: -38px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .ymaps-2-1-74-searchbox__normal-layout {
+    width: 200px !important;
+  }
+}

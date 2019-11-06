@@ -1,0 +1,112 @@
+.icon {
+  &__person-blue {
+    background-image: url('../img/person.svg');
+  }
+
+  &__phone {
+    &-blue {
+      background-image: url('../img/phone-blue.svg');
+    }
+  }
+
+  &__nav {
+    &-blue {
+      background-image: url('../img/nav.svg');
+    }
+
+    &-white {
+      background-image: url('../img/nav-white.svg');
+    }
+  }
+
+  &__dir {
+    &-blue {
+      background-image: url('../img/direction.svg');
+    }
+  }
+
+  &__car {
+    &-blue {
+      background-image: url('../img/car.svg');
+    }
+
+    &-white {
+      background-image: url('../img/car-white.svg');
+    }
+  }
+
+  &__square {
+    &-blue {
+      background-image: url('../img/square.svg');
+    }
+
+    &-white {
+      background-image: url('../img/square-white.svg');
+    }
+  }
+
+  &__price {
+    &-blue {
+      background-image: url('../img/price.svg');
+    }
+
+    &-white {
+      background-image: url('../img/price-white.svg');
+    }
+
+    &-pink {
+      background: url('../img/map/price-pink.svg');
+    }
+  }
+
+  &__forest {
+    &-blue {
+      background-image: url('../img/forest.svg');
+    }
+
+    &-white {
+      background-image: url('../img/forest-white.svg');
+    }
+  }
+
+  &__water {
+    &-blue {
+      background-image: url('../img/water.svg');
+    }
+
+    &-white {
+      background-image: url('../img/water-white.svg');
+    }
+  }
+
+  &__houses {
+    &-blue {
+      background-image: url('../img/houses.svg');
+    }
+
+    &-white {
+      background-image: url('../img/houses-white.svg');
+    }
+  }
+
+  &__choice {
+    &-blue {
+      background-image: url('../img/choice.svg');
+    }
+  }
+
+  &__close {
+    background-image: url('../img/close.svg');
+  }
+
+  &__print {
+    &-pink {
+      background: url('../img/map/Print-pink.svg');
+    }
+  }
+
+  &__x {
+    background-image: url('../img/map/x.svg');
+  }
+
+}

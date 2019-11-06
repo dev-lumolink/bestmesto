@@ -1,0 +1,62 @@
+body {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .01em; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  position: relative;
+  background: -moz-linear-gradient(top, #113075 0%, #083c99 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #113075 0%, #083c99 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#113075), to(#083c99));
+  background: -o-linear-gradient(top, #113075 0%, #083c99 100%);
+  background: linear-gradient(to bottom, #113075 0%, #083c99 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#113075', endColorstr='#083c99',GradientType=0 );
+  /* IE6-9 */ }
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto; }
+
+.mainbtn {
+  text-align: center;
+  background: #fb4086;
+  color: #fff;
+  border-radius: 5px;
+  padding: 14px 15px;
+  background: -webkit-linear-gradient(left, #fb4086 0%, #f91c3e 100%);
+  background: -o-linear-gradient(left, #fb4086 0%, #f91c3e 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#fb4086), to(#f91c3e));
+  background: linear-gradient(to right, #fb4086 0%, #f91c3e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb4086', endColorstr='#f91c3e',GradientType=1 ); }
+  .mainbtn-blue {
+    background: #0044b0;
+    background: -moz-linear-gradient(left, #0044b0 0%, #092056 100%);
+    background: -webkit-linear-gradient(left, #0044b0 0%, #092056 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0044b0), to(#092056));
+    background: -o-linear-gradient(left, #0044b0 0%, #092056 100%);
+    background: linear-gradient(to right, #0044b0 0%, #092056 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0044b0', endColorstr='#092056',GradientType=1 );
+    -webkit-box-shadow: 20px 20px 40px rgba(0, 68, 176, 0.15);
+    box-shadow: 20px 20px 40px rgba(0, 68, 176, 0.15); }

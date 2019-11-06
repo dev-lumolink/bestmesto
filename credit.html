@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Рассрочка</title>
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="header__logo">
+          <img src="img/Logo.png" srcset="img/Logo@2x.png 480w, img/Logo@3x.png 600w" alt="">
+        </a>
+        <div class="header__menu">
+          <a href="#" class="header__menu-mobil">
+            <span> Меню</span>
+          </a>
+          <div class="header__list-mobil">
+            <a href="index.html" class="header__item">
+              <span>Посёлки</span>
+            </a>
+            <a href="area.html" class="header__item">
+              <span>Сельхоз земли</span>
+            </a>
+            <a href="items.html" class="header__item">
+              <span>Участки</span>
+            </a>
+            <a href="credit.html" class="header__item header__item-active">
+              <span>Рассрочка</span>
+            </a>
+            <a href="#" class="header__item">
+              <span>Информация</span>
+            </a>
+            <a href="#" class="header__item">
+              <span>О компании</span>
+            </a>
+          </div>
+          <div class="header__list">
+            <a href="index.html" class="header__item">
+              <span>Посёлки</span>
+            </a>
+            <a href="area.html" class="header__item">
+              <span>Сельхоз земли</span>
+            </a>
+            <a href="items.html" class="header__item">
+              <span>Участки</span>
+            </a>
+            <a href="credit.html" class="header__item header__item-active">
+              <span>Рассрочка</span>
+            </a>
+            <a href="#" class="header__item">
+              <span>Информация</span>
+            </a>
+            <a href="#" class="header__item">
+              <span>О компании</span>
+            </a>
+          </div>
+        </div>
+        <div class="header__contacts">
+          <a href="#" class="header__search">
+
+          </a>
+
+          <a href="#" class="header__phone">
+            +7 (495) 741-17-19
+          </a>
+          <div class="search__popup">
+            <form action="" class="search__form">
+              <input type="text" placeholder="Поиск" class="search__field" id="search__field">
+              <input type="submit" class="search__submit" value>
+            </form>
+          </div>
+          <div class="banners__popup">
+            <a href="#" class="banners__tag banners__recall">
+              Перезвоните мне
+            </a>
+            <a href="#" class="banners__tag banners__tag-blue banners__message">
+              Оставить заявку
+            </a>
+            <form action="" id="popup__call">
+              <textarea name="banners__message" placeholder="Сообщение"></textarea>
+              <div>
+                <label><span class="icon__person-blue"></span><input type="text" placeholder="Имя"></label>
+              </div>
+              <div>
+                <label><span class="icon__phone-blue"></span><input type="text" placeholder="Телефон" class="phone-field"></label>
+              </div>
+              <div class="form__personal" id="personal-banner">
+                <label for="banner-checked" class="form__checked">Согласие на обработку персональных данных</label>
+                <input type="checkbox" id="banner-checked" name="banner-checked" class="form__checked" checked>
+                <!--Декоративный элемент. Значение checkbox берется из id="banner-checked"-->
+                <span class="form__checkmark form__checkmark-checked">
+                </span>
+              </div>
+              <input type="submit" value="Отправить заявку" class="mainbtn form__submit" id="submit-banner">
+            </form>
+            <form action="" id="popup__request">
+              <input type="text" name="client__name" placeholder="Имя" class="form__name">
+              <input type="text" name="client__phone" placeholder="Телефон" class="form__phone phone-field">
+              <textarea name="client__desc" id="" class="form__comment"></textarea>
+              <div class="form__personal" id="personal-request">
+                <label for="request-checked" class="form__checked">Согласие на обработку персональных данных</label>
+                <input type="checkbox" id="request-checked" name="banner-checked" class="form__checked" checked>
+                <!--Декоративный элемент. Значение checkbox берется из id="banner-checked"-->
+                <span class="form__checkmark form__checkmark-checked">
+                </span>
+              </div>
+              <input type="submit" value="Отправить заявку" class="mainbtn form__submit" id="submit-request">
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+
+    <section class="banners">
+      <div class="container">
+        <div class="banners__special">
+          <div class="banners__slider owl-carousel" >
+            <div class="banners__inner">
+              <div class="special__title">
+                Весне дорогу!
+              </div>
+              <div class="special__desc">
+                <p>1 час от Москвы</p>
+                <p>по Симферопольскому направлению!</p>
+              </div>
+
+              <div class="banners__nav">
+                <div>
+                  <a href="#" class="special__btn mainbtn">
+                    <span>Оставить заявку</span>
+                  </a>
+                  <a href="#" class="special__phone">
+                    <span>+7 (495) 741-17-19</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="banners__inner" >
+              <div class="special__title">
+                Весне дорогу2!
+              </div>
+              <div class="special__desc">
+                <p>1 час от Москвы</p>
+                <p>по Симферопольскому направлению!</p>
+              </div>
+              <div class="banners__nav">
+                <div>
+                  <a href="#" class="special__btn mainbtn">
+                    <span>Оставить заявку</span>
+                  </a>
+                  <a href="#" class="special__phone">
+                    <span>+7 (495) 741-17-19</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="banners__inner">
+              <div class="special__title">
+                Весне дорогу3!
+              </div>
+              <div class="special__desc">
+                <p>1 час от Москвы</p>
+                <p>по Симферопольскому направлению!</p>
+              </div>
+              <div class="banners__nav">
+                <div>
+                  <a href="#" class="special__btn mainbtn">
+                    <span>Оставить заявку</span>
+                  </a>
+                  <a href="#" class="special__phone">
+                    <span>+7 (495) 741-17-19</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banners__nav">
+            <div>
+              <a href="#" class="special__btn mainbtn">
+                <span>Оставить заявку</span>
+              </a>
+              <a href="#" class="special__phone">
+                <span>+7 (495) 741-17-19</span>
+              </a>
+            </div>
+            <a href="#" class="banners__manage banners__manage-left"></a>
+            <a href="#" class="banners__manage banners__manage-right"></a>
+          </div>
+        </div>
+
+        <div class="banners__survey">
+          <div class="survey__slider owl-carousel">
+            <div class="banners__question">
+              <div class="survey__num">
+                Вопрос 1 из 10
+              </div>
+              <div class="survey__question special__title">
+                Какой участок вам нужен?
+              </div>
+              <div class="survey__desc special__desc">
+                Для проживания
+              </div>
+              <div class="survey__variants">
+                <a href="#" class="mainbtn survey__answer survey__answer-left">
+                  Летом
+                </a>
+                <a href="#" class="mainbtn mainbtn-blue survey__answer survey__answer-right">
+                  Круглый год
+                </a>
+              </div>
+            </div>
+            <div class="banners__question">
+              <div class="survey__num">
+                Вопрос 2 из 10
+              </div>
+              <div class="survey__question special__title">
+                Какой участок вам нужен?
+              </div>
+              <div class="survey__desc special__desc">
+                Для проживания
+              </div>
+              <div class="survey__variants">
+                <a href="#" class="mainbtn survey__answer survey__answer-left">
+                  Летом
+                </a>
+                <a href="#" class="mainbtn mainbtn-blue survey__answer survey__answer-right">
+                  Круглый год
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <main class="info">
+      <div class="container">
+        <div class="info__title">
+          Купить недвижимость в рассрочку
+        </div>
+        <div class="info__text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi.
+            Ut placerat quam lectus. Curabitur dictum velit non lacus ornare tempor.
+            Nullam quis augue in leo aliquet malesuada sit amet eget eros. Sed laoreet
+            posuere velit sit amet varius. Nulla eget purus non erat fringilla sodales vel a nulla.
+            Cras sit amet tempus risus. Fusce dignissim blandit justo, eget elementum risus tristique a.
+            Nunc fringilla lacus lacus, sit amet accumsan est pulvinar non. Praesent tristique enim lorem.</p>
+            <p>Nulla eget purus non erat fringilla sodales vel a nulla. Cras sit amet tempus risus.
+            Fusce dignissim blandit justo, eget elementum risus tristique a. Nunc fringilla lacus lacus,
+            sit amet accumsan est pulvinar non. Praesent tristique enim lorem.</p>
+        </div>
+
+        <div class="info__img">
+          <img src="img/Rectangle78.png" srcset="img/Rectangle78@2x.png 480w, img/Rectangle78@3x.png 600w" alt="">
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+  <section class="form">
+    <div class="container">
+      <div class="form__title">Получите рассрочку прямо сейчас!</div>
+      <div class="form__instruction">Заполните эту форму. Все остальное мы берем на себя.</div>
+      <form action="#" name="request" class="form__request">
+        <input type="text" name="client__name" placeholder="Имя" class="form__name">
+        <input type="text" name="client__phone" placeholder="Телефон" class="form__phone phone-field">
+        <textarea name="client__desc" id="" class="form__comment"></textarea>
+        <input type="submit" value="Отправить заявку" class="mainbtn form__submit" id="submit-request">
+        <div class="form__personal" id="personal-order">
+          <label for="personal-checked" class="form__checked">Согласие на обработку персональных данных</label>
+          <input type="checkbox" id="personal-checked" name="personal-personal-checked" class="form__checked" checked>
+          <!-- Значение флажка берется из checkbox с id="personal-checked"-->
+          <span class="form__checkmark form__checkmark-checked">
+          </span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__logo">
+        <img src="img/Logo.png" srcset="img/Logo@2x.png 480w, img/Logo@3x.png 600w" alt="">
+        <div class="footer__copy">
+          &copy; 2010-2018 ООО &ldquo;Лучшее место&rdquo;
+        </div>
+        <div class="footer__design">
+          Дизайн сайта lumolink.co
+        </div>
+      </div>
+      <div class="footer__menu">
+        <div class="footer__list">
+          <div class="footer__item">
+            Навигация
+          </div>
+          <a href="#" class="footer__item">
+            Политика конфиденциальности
+          </a>
+          <a href="#" class="footer__item">
+            Карта сайта
+          </a>
+          <a href="#" class="footer__item">
+            Инвесторам
+          </a>
+        </div>
+      </div>
+      <div class="footer__contacts">
+        <div class="footer__list">
+          <li class="footer__item">
+            Контакты
+          </li>
+          <a href="#" class="footer__item">
+            +7 495 741 17 19
+          </a>
+          <a href="#" class="footer__item">
+            +7 499 198 03 01
+          </a>
+          <li class="footer__item">
+            Москва, ул. Алабяна дом 12 корпус 6
+          </li>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

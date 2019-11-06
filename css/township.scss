@@ -1,0 +1,252 @@
+.township {
+
+  &__title {
+    margin-bottom: 21px;
+  }
+  &__chars {
+
+    margin-bottom: 50px;
+    li {
+      display: inline-block;
+      position: relative;
+      margin-right: 30px;
+      font-size: 18px;
+      margin-bottom: 10px;
+
+      span:first-child {
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 2px;
+      }
+
+      span:last-child {
+        margin-left: 26px;
+      }
+    }
+  }
+
+  &__table {
+    tr td {
+      color: #595f6f !important;
+    }
+    tr td:first-child {
+      color: #0f358e !important;
+    }
+  }
+
+  &__map {
+    height: 675px;
+    position: relative;
+    margin-bottom: 60px;
+
+    input[type="checkbox"] {
+      display: none;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 24px;
+
+    p {
+      margin-bottom: 20px;
+
+    }
+  }
+
+  &__gallery {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  &__wrapper {
+    width: 90%;
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  &__slider {
+    position: absolute;
+    transition: .5s;
+    left: 0px;
+  }
+
+  &__photolist {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photo {
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0;
+    height: 240px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: url('../img/arrow_blue.svg') center center no-repeat;
+    background-size: contain;
+    margin-top: -15px;
+
+    &-prev {
+      transform: rotate(180deg);
+      left: 0;
+    }
+
+    &-next {
+      right: 0;
+    }
+  }
+
+  &__map {
+    position: relative;
+
+    .map {
+      &__control {
+        position: absolute;
+        left: 57px;
+        display: block;
+        z-index: 100;
+
+        &-top {
+          top: 40px;
+        }
+
+        &-bottom {
+          bottom: 75px;
+        }
+      }
+
+      &__icon {
+        width: 23px;
+        height: 23px;
+        display: block;
+        background-size: cover;
+
+        margin-bottom: 5px;
+
+        &-plus {
+          background-image: url('../img/map/Plus.svg');
+        }
+
+        &-minus {
+          background-image: url('../img/map/Minus.svg');
+        }
+
+        &-target {
+          background-image: url('../img/map/location-target.svg');
+        }
+
+        &-full {
+          background-image: url('../img/map/Fullscreen.svg');
+        }
+
+        &-print {
+          background-image: url('../img/map/Print.svg');
+        }
+
+        &-share {
+          background-image: url('../img/map/Share.svg');
+        }
+
+        &-line {
+          background-image: url('../img/map/Line.svg');
+        }
+
+        &-find {
+          background-color: #d8e5fa;
+          color: #0f358e;
+          font-size: 14px;
+          padding: 7px 10px;
+          border-radius: 5px;
+          margin-top: 5px;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+#map3 {
+  .map__info {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .township__wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .township {
+    &__chars {
+
+      margin-bottom: 20px;
+      li {
+        font-size: 14px;
+
+        span:first-child {
+          width: 12px;
+          height: 12px;
+        }
+
+        span:last-child {
+          margin-left: 18px;
+        }
+      }
+
+    }
+
+    &__gallery {
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      margin-bottom: 20px;
+
+      p {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .township__wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .township__map {
+    //height: 80%;
+  }
+}

@@ -1,0 +1,86 @@
+.ui-widget-header {
+  background: #1964e0;
+  height: 4px;
+}
+
+.ui-slider-horizontal {
+  height: 2px;
+}
+
+.ui-widget.ui-widget-content {
+  border: 1px solid #a4bdfe;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default, .ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border-radius: 50%;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -8px;
+}
+
+.ui-slider .ui-slider-handle {
+  height: 16px;
+  width: 16px;
+  background: #2770e3;
+  outline: none;
+  border: none;
+}
+
+//плавающие значения
+.slider__range {
+  margin-top: 40px;
+  position: relative;
+}
+
+.range__value {
+  position: absolute;
+  background: #fff;
+  bottom: 15px;
+  left: 0%;
+  border: 1px solid #d5d8df;
+  white-space: nowrap;
+  padding: 5px;
+  border-radius: 5px;
+  color: #0a0a0a;
+  font-weight: bold;
+  font-size: 9px;
+
+  &-right {
+    left: 90%;
+  }
+}
+
+#slider-range-price-val2 .range__value-left {
+  left: -10%;
+}
+
+
+.range__value:after {
+  content: '';
+  position: absolute;
+  //top: -21px;
+  bottom: -4px;
+  left: 15%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+
+}
+.range__value:before {
+  content: '';
+  position: absolute;
+  //top: -19px;
+  bottom: -6px;
+  left: 15%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #dedede;
+}

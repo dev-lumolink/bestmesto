@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:#2871e5}
+        </style>
+    </defs>
+    <path id="Иконка_цена" d="M13 7.5h-1.75a.25.25 0 0 0-.25.25v3.5a.25.25 0 0 0 .25.25H13a2 2 0 0 0 0-4zM12 0a12 12 0 1 0 12 12A12 12 0 0 0 12 0zm1 13.5h-1.75a.25.25 0 0 0-.25.25v4.75a1 1 0 0 1-2 0v-12a1 1 0 0 1 1-1h3a4 4 0 0 1 0 8z" class="cls-1" data-name="Иконка цена"/>
+</svg>

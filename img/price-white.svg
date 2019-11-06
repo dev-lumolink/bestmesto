@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="Иконка_цена" data-name="Иконка цена" transform="translate(-997 -495)">
+        <path id="Subtraction_2" d="M8 16a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8zM6.667 3.667A.668.668 0 0 0 6 4.333v8a.666.666 0 1 0 1.333 0v-1H8A.667.667 0 0 0 8 10h-.666v-.833A.167.167 0 0 1 7.5 9h1.167a2.667 2.667 0 1 0 0-5.333zm2 4H7.5a.168.168 0 0 1-.167-.167V5.167A.168.168 0 0 1 7.5 5h1.167a1.334 1.334 0 1 1 0 2.668z" class="cls-1" data-name="Subtraction 2" transform="translate(997 495)"/>
+    </g>
+</svg>
